@@ -90,3 +90,102 @@ else:
   </form>
   </body>
 </html>
+
+
+Oi, Railane aqui
+minha parte foi os tópicos 2 e 3:
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>Página de Contato</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            body{
+                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                 font-size: medium;
+                 background-color: #ffffff;
+                 margin: 0;
+                 padding: 20px;
+                 text-align: center;
+            }
+            .container{
+                     max-width: 600px;
+                     margin: auto;
+                     background: white;
+                     padding: 20px;
+                     border-radius: 5px;
+                     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }            
+                
+
+            h1{
+            
+                text-align: center;
+                
+                
+            }
+            label{
+                
+                display: block;
+                margin: 10px 0 5px;
+                font-size: 20px;
+            }
+            input, textarea{
+                
+                width: 100%; 
+                height: 50px; 
+                resize: none;
+            }
+    
+            button{
+                background-color: blue;
+                color: #cec7c7;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 4px;
+                cursor: pointer;
+                width: 100%;
+            }
+            button:hover{
+                background-color: rgb(46, 195, 61);
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Página de Contato</h1>
+        <form action="malito:railanemesquita34@gmail.com" method="post" enctype="text/plain"></form>
+    </form>
+    <a href="https://wa.me/5585981360256?text=fale%20comigo" target="_blank">
+        <img src="c:\Users\Samsung\Downloads\10000486.jpg" alt="Envie-me mensagem no WhatsApp" style="width: 40px;">
+    </a>
+    <form action="mailto:railanemesquita342gmail.com" method="post" enctype="text/plain">
+
+         <p><label for="Nome">Nome:</label></p>
+         <input type="text" id="nome" name="nome" required>
+
+         <p><label for="email">Endereço de email:</label></p>
+         <input type="email" id="email" name="email" required>
+
+         <p><label for="assunto">Motivo do assunto:</label></p>
+         <textarea id="assunto" name="assunto" rows="4" required></textarea>
+
+         <p><label for="telefone">Número de telefone:</label></p>
+         <input type="tel" id="telefone" name="telefone" required>
+
+         <p><label for="mensagem">Mensagem:</label>
+         <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+         <p><button type="submit">Enviar formulário</button></p>
+       </form>
+      </div>
+</body>
+</html>
+
+Contei com a ajuda de meus colegas de equipe, em especial a Julianny, e também com a ajuda da Alanis.
+Foi uma experiência divertida, e um bom trabalho em equipe.
